@@ -85,43 +85,53 @@
 
 
 
-
-let p1 = new Promise((resolve,reject) => {
-  console.log("promise is pending");
-  setTimeout(() => {
-    console.log("i am a promise and i am fullfilled");
-    resolve(true);
-    // console.log("i am a promise and i am rejected");
-    // reject(new Error("I am an error"));
+// Examples
+// let p1 = new Promise((resolve,reject) => {
+//   console.log("promise is pending");
+//   setTimeout(() => {
+//     console.log("i am a promise and i am fullfilled");
+//     resolve(true);
+//     // console.log("i am a promise and i am rejected");
+//     // reject(new Error("I am an error"));
     
-  }, 3000);
+//   }, 3000);
 
-})
+// })
 
 
-let p2 = new Promise((resolve,reject) => {
-  console.log("promise is pending");
-  setTimeout(() => {
-    // console.log("i am a promise and i am fullfilled");
-    // resolve(true);
-    console.log("i am a promise and i am rejected");
-    reject(new Error("I am an error"));
+// let p2 = new Promise((resolve,reject) => {
+//   console.log("promise is pending");
+//   setTimeout(() => {
+//     // console.log("i am a promise and i am fullfilled");
+//     // resolve(true);
+//     console.log("i am a promise and i am rejected");
+//     reject(new Error("I am an error"));
     
-  }, 3000);
+//   }, 3000);
 
-})
+// })
 
 
-p1.then((value)=>{
-  console.log(value);
-})
-
-// p2.then((value)=>{
+// p1.then((value)=>{
 //   console.log(value);
+// })
+
+// // p2.then((value)=>{
+// //   console.log(value);
+// // })
+
+
+
+// p2.catch((error) =>{
+//   console.log("some error happend");
 // })
 
 
 
-p2.catch((error) =>{
-  console.log("some error happend");
-})
+// example
+
+// let promise = new Promise(resolve =>{
+//   setTimeout(() => resolve("done"), 1000);
+// });
+
+// promise.then(alert);
