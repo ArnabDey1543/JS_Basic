@@ -49,5 +49,28 @@
 
 
 // using forEach
-const arr = ["Banana", "Orange", "Apple", "Mango"];
-let len = arr.length;
+// const arr = ["Banana", "Orange", "Apple", "Mango"];
+// let len = arr.length;
+
+// arr.forEach(element => {
+//     console.log(element);
+    
+// });
+
+
+
+
+
+
+// Adding Array Elements
+// const fruits = ["Banana", "Orange", "Apple"];
+// console.log(fruits);
+// fruits.push("Lemon");
+// console.log(fruits);
+
+
+
+
+
+
+
