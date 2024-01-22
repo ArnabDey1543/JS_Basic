@@ -1,17 +1,19 @@
-// const fullName = "Arnab Dey";
+const fullName = "Arnab Dey";
 
-// // Define nested functions:
-// function profile() {
-//   function sayName() {
-//     function writeName() {
-//       return fullName;
-//     }
-//     return writeName();
-//   }
-//   return sayName();
-// }
+// Define nested functions:
+function profile() {
+  function sayName() {
+    function writeName() {
+      return fullName;
+    }
+    return writeName();
+  }
+  return sayName();
+}
 
-// console.log(fullName);
+console.log(fullName);
+
+
 
 
 
@@ -38,19 +40,19 @@
 
 
 // Define a function:
-function showLastName() {
-    const lastName = "Dey";
-    return lastName;
-}
+// function showLastName() {
+//     const lastName = "Dey";
+//     return lastName;
+// }
 
-// Define another function:
-function displayFullName() {
-    const fullName = "Arnab " + lastName;
-    return fullName;
-}
+// // Define another function:
+// function displayFullName() {
+//     const fullName = "Arnab " + lastName;
+//     return fullName;
+// }
 
-// Invoke displayFullName():
-console.log(displayFullName());
+// // Invoke displayFullName():
+// console.log(displayFullName());
 
 
 //   Error
