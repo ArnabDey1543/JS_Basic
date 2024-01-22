@@ -21,14 +21,56 @@
 
 
 
-const add = (function () {
-    let counter =0;
-    return function () { counter +=1; return counter}
+// const add = (function () {
+//     let counter =0;
+//     return function () { counter +=1; return counter}
     
-})();
+// })();
 
-add();
-add();
-add();
+// add();
+// add();
+// add();
 
-console.log(add( ));
+// console.log(add( ));
+
+
+
+
+function myFunc() {
+    function displayName(name) {
+        const name="arnab";
+        console.log(name);
+
+        
+    }
+    return displayName;
+}
+
+
+const func= myFunc();
+
+myFunc();
+
+// console.log(myFunc());
+
+
+
+
+
+
+
+
+
+// function makeAdder(x) {
+//     return function (y) {
+//         return x+y;
+        
+//     };
+// }
+
+
+// const add5 = makeAdder(5);
+// const add10 = makeAdder(10);
+
+// console.log(add5(2));
+// console.log(add10(2));
